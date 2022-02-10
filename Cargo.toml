@@ -4,6 +4,7 @@ version = "1.0.0"
 edition = "2021"
 
 description = "Logs GPS and CAN-bus data and synchronizes the CAN-data with the GPS-data"
+license = "MIT or Apache-2"
 license-file = "LICENSE"
 documentation = "https://docs.rs/gpscandump"
 respository = "https://github.com/tsabelmann/gpscandump-rs"
@@ -21,3 +22,5 @@ chrono = "0.4"
 
 [[bin]]
 name = "gpscandump"
+test = false
+bench = false
