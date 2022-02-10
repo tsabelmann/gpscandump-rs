@@ -6,9 +6,9 @@ categories = ["command-line-utilities", "data-logging", "embedded", "data-analys
 description = "Logs GPS and CAN-bus data and synchronizes the CAN-data with the GPS-data"
 documentation = "https://docs.rs/gpscandump"
 homepage = "https://github.com/tsabelmann/gpscandump-rs"
-keyword = ["gps", "can", "can-bus", "serial", "serial-port", "csv"]
-respository = "https://github.com/tsabelmann/gpscandump-rs"
-readmed = "README.md"
+keywords = ["gps", "can", "can-bus", "serial", "serial-port", "csv"]
+repository = "https://github.com/tsabelmann/gpscandump-rs"
+readme = "README.md"
 version = "1.0.0"
 edition = "2021"
 
