@@ -2,7 +2,19 @@
 
 ![Crates.io](https://img.shields.io/crates/d/gpscandump)
 
-*gpscandump* is a logging program that combines CAN-bus with GPS data to be more precise, i.e., not relying on the underlying operating system to retrieve timing and date information. The log contains the timestamp, the used CAN-bus interface, the CAN-ID, the DLC, the CAN-bus data, the longitude, the latitude, the elevation (altitude), and the speed over ground.
+This is a logging tool that receives GPS-data from a serial port and CAN-bus data from CAN-interface supported by the Linux kernel. The idea behind this tool was that the underlying logging device does not always have access to the current time. Consequently, the timestamps are only correct relatively to one and another. To mitigate this problem, the timestamps are synchronized by using GPS-data. The resulting log contains the following columns:
+
+- Timestamp in [RFC-3339](https://datatracker.ietf.org/doc/html/rfc3339) formatting
+- Unix-Timestamp
+- CAN-bus interface
+- DLC (number of received data bytes)
+- CAN-bus data
+- Longitude
+- Latitude
+- Altitude (elevation) in meter
+- Speed over ground in m/s
+
+Currently, `gpscandump` only supports CAN-interfaces the Linux kernel can use, as well as a specific [GPS-dongle](https://www.globalsat.com.tw/en/product-199952/Cable-GPS-with-USB-interface-SiRF-Star-IV-BU-353S4.html).
 
 ## Installation
 
