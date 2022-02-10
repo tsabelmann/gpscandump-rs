@@ -1,13 +1,16 @@
 [package]
 name = "gpscandump"
+license = "MIT or Apache-2"
+authors = ["Tim Lucas Sabelmann <tsabelmann>"]
+categories = ["command-line-utilities", "data-logging", "embedded", "data-analysis"]
+description = "Logs GPS and CAN-bus data and synchronizes the CAN-data with the GPS-data"
+documentation = "https://docs.rs/gpscandump"
+homepage = "https://github.com/tsabelmann/gpscandump-rs"
+keyword = ["gps", "can", "can-bus", "serial", "serial-port", "csv"]
+respository = "https://github.com/tsabelmann/gpscandump-rs"
+readmed = "README.md"
 version = "1.0.0"
 edition = "2021"
-
-description = "Logs GPS and CAN-bus data and synchronizes the CAN-data with the GPS-data"
-license = "MIT or Apache-2"
-# license-file = "LICENSE"
-documentation = "https://docs.rs/gpscandump"
-respository = "https://github.com/tsabelmann/gpscandump-rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -22,5 +25,7 @@ chrono = "0.4"
 
 [[bin]]
 name = "gpscandump"
+path = "src/main.rs"
+doc = false
 test = false
 bench = false
