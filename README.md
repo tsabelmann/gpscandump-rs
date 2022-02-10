@@ -1,6 +1,6 @@
 # gpscandump
 
-![Crates.io](https://img.shields.io/crates/d/gpscandump)
+![Crates.io](https://img.shields.io/crates/v/gpscandump)![Crates.io](https://img.shields.io/crates/l/gpscandump)![Crates.io](https://img.shields.io/crates/d/gpscandump)
 
 This is a logging tool that receives GPS-data from a serial port and CAN-bus data from CAN-interface supported by the Linux kernel. The idea behind this tool was that the underlying logging device does not always have access to the current time. Consequently, the timestamps are only correct relatively to one and another. To mitigate this problem, the timestamps are synchronized by using GPS-data. The resulting log contains the following columns:
 
