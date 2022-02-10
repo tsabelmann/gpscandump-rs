@@ -1,7 +1,12 @@
 [package]
 name = "gpscandump"
-version = "1.2.0"
+version = "1.0.0"
 edition = "2021"
+
+description = ""
+licence-file = "LICENSE"
+documentation = "https://docs.rs/gpscandump"
+respository = "https://github.com/tsabelmann/gpscandump-rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
