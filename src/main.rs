@@ -64,8 +64,8 @@ fn get_gps_and_can_frame_timestamp(reader: &mut BufReader<Box<dyn SerialPort>>)
 }
 
 fn main() {
-    let matches = App::new("gpscanlogger - logs GPS and CAN-bus data")
-        .bin_name("gpscanlogger")
+    let matches = App::new("gpscandump - logs GPS and CAN-bus data")
+        .bin_name("gpscandump")
         .setting(AppSettings::DisableVersionFlag)
         .arg(
             Arg::new("interface")
