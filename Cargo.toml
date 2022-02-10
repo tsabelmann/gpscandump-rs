@@ -3,8 +3,8 @@ name = "gpscandump"
 version = "1.0.0"
 edition = "2021"
 
-description = ""
-licence-file = "LICENSE"
+description = "Logs GPS and CAN-bus data and synchronizes the CAN-data with the GPS-data"
+license-file = "LICENSE"
 documentation = "https://docs.rs/gpscandump"
 respository = "https://github.com/tsabelmann/gpscandump-rs"
 
