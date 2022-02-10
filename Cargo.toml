@@ -1,6 +1,6 @@
 [package]
 name = "gpscandump"
-license = "MIT or Apache-2"
+license = "MIT/Apache-2.0"
 authors = ["Tim Lucas Sabelmann <tsabelmann>"]
 categories = ["command-line-utilities", "data-logging", "embedded", "data-analysis"]
 description = "Logs GPS and CAN-bus data and synchronizes the CAN-data with the GPS-data"
