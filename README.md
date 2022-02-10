@@ -1,5 +1,7 @@
 # gpscandump
 
+![Crates.io](https://img.shields.io/crates/d/gpscandump)
+
 *gpscandump* is a logging program that combines CAN-bus with GPS data to be more precise, i.e., not relying on the underlying operating system to retrieve timing and date information. The log contains the timestamp, the used CAN-bus interface, the CAN-ID, the DLC, the CAN-bus data, the longitude, the latitude, the elevation (altitude), and the speed over ground.
 
 ## Build
