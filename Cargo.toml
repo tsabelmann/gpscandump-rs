@@ -5,7 +5,7 @@ edition = "2021"
 
 description = "Logs GPS and CAN-bus data and synchronizes the CAN-data with the GPS-data"
 license = "MIT or Apache-2"
-license-file = "LICENSE"
+# license-file = "LICENSE"
 documentation = "https://docs.rs/gpscandump"
 respository = "https://github.com/tsabelmann/gpscandump-rs"
 
