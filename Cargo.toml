@@ -4,7 +4,6 @@ license = "MIT/Apache-2.0"
 authors = ["Tim Lucas Sabelmann <tsabelmann>"]
 categories = ["command-line-utilities"]
 description = "Logs GPS and CAN-bus data and synchronizes the CAN-data with the GPS-data"
-documentation = "https://docs.rs/gpscandump"
 homepage = "https://github.com/tsabelmann/gpscandump-rs"
 keywords = ["gps", "can", "serial", "csv"]
 repository = "https://github.com/tsabelmann/gpscandump-rs"
