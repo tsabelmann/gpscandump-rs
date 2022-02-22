@@ -8,7 +8,7 @@ homepage = "https://github.com/tsabelmann/gpscandump-rs"
 keywords = ["gps", "can", "serial", "csv"]
 repository = "https://github.com/tsabelmann/gpscandump-rs"
 readme = "README.md"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
